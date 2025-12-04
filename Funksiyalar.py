@@ -16,26 +16,26 @@
 
 # def kankulator(x, y, belgi):
 #     if belgi == '+':
-#         return f"Yig'indi: {x + y}"
+#         return f"Yig'indi: {x + y} ✅"
 #     elif belgi == '-':
-#         return f"Ayirma: {x - y}"
+#         return f"Ayirma: {x - y} ✅"
 #     elif belgi == '*':
-#         return f"Ko'paytma: {x * y}"
+#         return f"Ko'paytma: {x * y} ✅"
 #     elif belgi == '/':
-#         return f"Bo'linma: {x / y}"
+#         return f"Bo'linma: {x / y} ✅"
 #     elif belgi == '**':
-#         return f"Daraja: {x ** y}"
+#         return f"Daraja: {x ** y} ✅"
 #     elif belgi == '//':
-#         return f"Qoldiqsiz bo'lish: {x // y}"
+#         return f"Qoldiqsiz bo'lish: {x // y} ✅"
 #     elif belgi == '√':
-#         return f"Ildizi: {x ** (1/y)}"
+#         return f"Ildizi: {x ** (1/y)} ✅"
 #     elif belgi == '%':
-#         return f"Foyiz: {x * (y/100)}"
+#         return f"Foyiz: {x * (y/100)} ✅"
 #     else:
-#         return "Xato qiymat Bu belgi mavjud emas ❌"
-#
+#         return "Xato qiymat Bu belgi mavjud emas ❌"  # Agar kerak bolsa yana Qo'shimcha qoshishim mumkin 
+# 
 # x = int(input("X:"))
 # y = int(input("Y:"))
 # belgi = input("Belgi:")
-#
-# print(x, y, belgi)
+# 
+# print(kankulator(x, y, belgi))
