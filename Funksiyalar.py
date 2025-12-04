@@ -27,5 +27,15 @@
 #         return f"Daraja: {x ** y}"
 #     elif belgi == '//':
 #         return f"Qoldiqsiz bo'lish: {x // y}"
-#     elif belgi == '1/2':
-#         return f"Yig'indi: {x + y}"
+#     elif belgi == '√':
+#         return f"Ildizi: {x ** (1/y)}"
+#     elif belgi == '%':
+#         return f"Foyiz: {x * (y/100)}"
+#     else:
+#         return "Xato qiymat Bu belgi mavjud emas ❌"
+#
+# x = int(input("X:"))
+# y = int(input("Y:"))
+# belgi = input("Belgi:")
+#
+# print(x, y, belgi)
