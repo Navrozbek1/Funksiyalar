@@ -31,8 +31,19 @@
 #         return f"Ildizi: {x ** (1/y)} ✅"
 #     elif belgi == '%':
 #         return f"Foyiz: {x * (y/100)} ✅"
+#     elif belgi == '!':
+#         faktorial = 1
+#         for son in range(1, x + 1):
+#             faktorial *= son
+# 
+#         faktorial1 = 1
+#         for son in range(1, y + 1):
+#             faktorial1 *= son
+# 
+#         return f"{x}! = {faktorial} \n{y}! = {faktorial1}"
+# 
 #     else:
-#         return "Xato qiymat Bu belgi mavjud emas ❌"  # Agar kerak bolsa yana Qo'shimcha qoshishim mumkin 
+#         return "Xato qiymat Bu belgi mavjud emas ❌"  # Agar kerak bolsa yana Qo'shimcha qoshishim mumkin
 # 
 # x = int(input("X:"))
 # y = int(input("Y:"))
