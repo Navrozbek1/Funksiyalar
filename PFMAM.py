@@ -1,6 +1,8 @@
 """ PFMAM = Python'da Funksiyalar mavzusidan Algoritmik masalalar """
 
-## 1-modul
+# 3QkNoQ
+
+""" ✅✅✅✅✅✅✅✅✅✅✅ 1 - modul ✅✅✅✅✅✅✅✅✅✅✅ """
 
 ##   1.Sonning kvadratini hisoblash
 
@@ -80,7 +82,7 @@
 #
 # print(teskari(son := input("Sonni kriting: ")))
 
-## 2-modul
+""" ✅✅✅✅✅✅✅✅✅✅✅ 2 - modul ✅✅✅✅✅✅✅✅✅✅✅ """
 
 ##    1.Faktorial hisoblash
 
@@ -94,3 +96,37 @@
 # x = int(input("Sonni kriting: "))
 # print(faktorial(x))
 
+##    2.Sonlar ro'yxatidagi juft sonlar yig'indisi
+
+# def juft_yigindi(list1):
+#     yigindi = 0
+#     for i in list1:
+#         if i % 2 == 0:
+#             yigindi += i
+#     return f"Yig'indi: {yigindi}"
+#
+# x = [1, 2, 3, 4, 5, 6, 7]
+# print(juft_yigindi(x))
+
+##    3.Matndagi unli harflar son
+
+# def unli(matn):
+#     unlilar = ['a','e','o','u',"o'",'i']
+#     unli_lar = ''
+#     for i in matn:
+#         if i in unlilar:
+#             unli_lar += i
+#     return f"Bu matnda unli harflar: {len(unli_lar)} ta!"
+#
+# matn = input("Matn kiriting: ").lower()
+# print(unli(matn))
+
+##    4.Sonning darajasini hisoblash
+
+# def daraja(x, y):
+#     if x > 0 or y > 0:
+#         return (f"Natija:{x} = {x**y}")
+#
+# x = int(input('Sonni kriting: '))
+# y = int(input('Darajasini kriting: '))
+# print(daraja(x, y))
