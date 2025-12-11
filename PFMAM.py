@@ -130,3 +130,16 @@
 # x = int(input('Sonni kriting: '))
 # y = int(input('Darajasini kriting: '))
 # print(daraja(x, y))
+
+##    5.Ro'yxatdagi eng katta element
+
+# def eng_katta_son(list1):
+#     katta = list1[0]
+#     for i in list1:
+#         if i > katta:
+#             katta = i
+#     return f"Ro'yxatdagi eng katta element: {katta}"
+#
+# print(eng_katta_son([12, 45, 78, 23, 56, 89, 90, 11]))
+
+##    6.Matnni katta harfga aylantirish
