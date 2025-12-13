@@ -72,4 +72,55 @@
 # x = input("Matn kriting: ")
 # print(count_chars(x))
 
-## Masala 8: Palindrom tekshiruvi 
+## Masala 8: Palindrom tekshiruvi
+
+# def palindrom(matn):
+#     if matn == matn[::-1]:
+#         return f"{matn.title()} - so'zi palindrom ✅"
+#     return f"{matn.title()} - so'zi palindrom emas ❌"
+#
+# matn = input("Matinni kriting: ").lower()
+# print(palindrom(matn))
+
+## Masala 9: List comprehension bilan kvadratlar
+
+# def kvadratlar(list1):
+#     natija = []
+#     for i in list1:
+#         natija += [i**2]
+#     print(f"Haqiqiy list: {list1}")
+#     print(f"Kvadratga oshirilgan list: {natija}")
+#
+# kvadratlar([1,2,3,4,5,6,7,8,9,10])
+
+## Masala 10: Ro'yxatni filterlash
+
+# def musbat_son(*sonlar):
+#     natija = []
+#     for son in sonlar:
+#         if son > 0:
+#             natija.append(son)
+#
+#     print(f"Haqiqiy sonlar: {sonlar}")
+#     print(f"Musbat sonlar: {natija}")
+#
+# musbat_son(1, 3, -2, 5, -1)
+
+## Masala 11: Faktorial (iterativ)
+
+# def faktorial(son):
+#     natija = 1
+#     for i in range(1, son + 1):
+#         natija *= i
+#     return f"{son}! = {natija}"
+#
+# print(faktorial(x := int(input("Sonni kriting: "))))
+
+## Masala 12: Dictionary manipulation
+
+# def dictionary(dict1,dict2):
+#     return f"Natija: {dict1 +' '+ dict2}"
+#
+# print(dictionary(dict1='salom',dict2='nimagap'))
+
+## Masala 13: Fibonacci ketma-ketligi (iterativ)
