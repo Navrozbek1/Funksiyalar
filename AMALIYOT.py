@@ -124,3 +124,4 @@
 # print(dictionary(dict1='salom',dict2='nimagap'))
 
 ## Masala 13: Fibonacci ketma-ketligi (iterativ)
+
